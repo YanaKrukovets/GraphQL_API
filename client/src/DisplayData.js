@@ -14,10 +14,10 @@ const QUERY_ALL_USERS = gql`
 
 function DisplayData () {
     const { data } = useQuery(QUERY_ALL_USERS);
-    if (data)
+
     console.log(data);
     
-    return <></>;
+    return <div>Data</div>;
 }
 
 export default DisplayData;
